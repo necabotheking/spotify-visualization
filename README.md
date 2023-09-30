@@ -1,14 +1,16 @@
 # Spotify Web API & Tableau Visualization Project
 
+## Table of Contents: 
+- Summary
+- Technologies/Project Prerequisites
+- Poetry Commands
+- Status
+- Reflection
+
 ## Summary
 To create a read me later for the spotify API app & tableau visualizations project
 
 [LINK to Tableau visualization/ or embed]
-
-## Table of Contentt: 
-- Technologies/Project Prerequisites
-- Poetry Commands
-- Status
 
 ## Technologies/Project Prerequisites 
 - Poetry
@@ -28,4 +30,6 @@ To create a read me later for the spotify API app & tableau visualizations proje
 - `make run`: Runs the entire program 
 
 ## Status
-- Spotify Web API & Tableau Visualization Project is still in-progress, I am currenly waiting for [extended steaming history](https://support.spotify.com/us/article/understanding-my-data/) from Spotify.  
+- Spotify Web API & Tableau Visualization Project is still in-progress, I am currenly waiting for my [extended steaming history](https://support.spotify.com/us/article/understanding-my-data/) from Spotify.  
+
+## Reflection
