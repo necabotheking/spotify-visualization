@@ -12,13 +12,16 @@ def to_json(streaming_dataframe):
     mycwd = os.getcwd()
     # should turn each file to JSON and dump them into the processed folder
     # within the data folder. naming conventions for the files?
+
+
 # if os.path.exists("spotify_tableau_project/data/processed"):
-    # os.remove("spotify_tableau_project/data/processed")
+# os.remove("spotify_tableau_project/data/processed")
 # os.makedirs("spotify_tableau_project/data/processed")
 
 # for key, dataframe in streaming_dict:
 
 # filename = f'{key}.json'
+
 
 def main():
     """
