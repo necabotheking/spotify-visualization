@@ -1,28 +1,9 @@
-from dotenv import load_dotenv
-from spotify_tableau_project.data_handling.spotify_streaming import main
-from spotify_tableau_project.utils.constants import BASE_URL, AUTH_URL
-import os
 import pandas as pd
 import requests
 
-
-# add this function to the utils folder
-def load_environment_variables():
-    """
-    Loads the environment variables and sets the AUTH_URL
-
-    Inputs: None
-
-    Returns:
-            CLIENT_ID (str): client credentials for spotify web api
-            CLIENT_SECRET (str): client credentials for spotify web api
-    """
-    load_dotenv("spotify_tableau_project/credentials/.env")
-
-    CLIENT_ID = os.environ.get("CLIENT_ID")
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-
-    return CLIENT_ID, CLIENT_SECRET
+from spotify_tableau_project.data_handling.spotify_streaming import main
+from spotify_tableau_project.utils.constants import AUTH_URL, BASE_URL
+from spotify_tableau_project.utils.functions import load_environment_variables
 
 
 def get_access_token():

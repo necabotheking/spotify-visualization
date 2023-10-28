@@ -1,16 +1,31 @@
-import os
-import pandas as pd
 import json
+import os
+
+import pandas as pd
+
 from spotify_tableau_project.api.spotify_web_api import main
 
 # go through data handling steps and call api
 
 
-def to_json(streaming_dataframe):
-    """ """
-    pass
+def create_directory():
+    """
+    Checks if the processed data folder exists
+    """
+    if os.path.exists("spotify_tableau_project/data/processed"):
+        print("Directory already exists")
+    else:
+        os.mkdirs("spotify_tableau_project/data/processed")
+        print("Created spotify_tableau_project/data/processed")
+
+
+def to_excel(streaming_dataframe):
+    """
+    Pandas DataFrame to excel
+    """
+    create_directory()
     mycwd = os.getcwd()
-    # should turn each file to JSON and dump them into the processed folder
+    # should turn each file to excel and dump them into the processed folder
     # within the data folder. naming conventions for the files?
 
 
