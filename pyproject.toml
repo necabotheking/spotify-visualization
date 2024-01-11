@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "spotify-tableau-project"
+name = "spotify-visualization-project"
 version = "0.1.0"
 description = ""
 authors = ["necabotheking <aichacamara@uchicago.edu>"]

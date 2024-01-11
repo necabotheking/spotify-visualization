@@ -1,4 +1,4 @@
-BASEDIR=./spotify_tableau_project
+BASEDIR=./spotify_visualization_project
 
 .PHONY: pretty
 pretty:
